@@ -1,0 +1,25 @@
+@import "vars.scss";
+
+.icon {
+	display: flex;
+	color: $inactive;
+	&.active {
+		color: $text-highlight;
+		cursor: pointer;
+	}
+	a {
+		// why does this somehow become 16x19 instead of 16x16? I need to investigate this
+		display: inherit;
+	}
+}
+
+:global {
+	.icon {
+		:global(.reverse) {
+			border-radius: 50%;
+			padding: 0.25rem;
+			background-color: black;
+			color: white;
+		}
+	}
+}
