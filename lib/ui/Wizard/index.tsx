@@ -3,7 +3,7 @@ import * as React from "react"
 import Page from "./Page"
 import PageSelect from "./PageSelect"
 
-import * as style from "./style.scss"
+import * as style from "./style.module.scss"
 
 interface Props {
   className?: string

@@ -1,7 +1,7 @@
 import * as React from "react"
 import cx from "classnames"
 
-import * as loadStyle from "./load.scss"
+import * as loadStyle from "./load.module.scss"
 
 interface Props {
   size?: number

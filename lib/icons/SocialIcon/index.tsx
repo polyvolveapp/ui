@@ -3,7 +3,7 @@ import cx from "classnames"
 
 import { Icon } from ".."
 
-import * as socialIconStyle from "./style.scss"
+import * as socialIconStyle from "./style.module.scss"
 
 import * as discord from "./discord.svg"
 import * as facebook from "./facebook.svg"

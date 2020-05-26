@@ -1,7 +1,7 @@
 import * as React from "react"
 
-import * as style from "./style.scss"
-import { NavigationItem } from "../../nav";
+import * as style from "./style.module.scss"
+import { NavigationItem } from "../../nav"
 
 export default class LightFooter extends React.Component<{}, {}> {
   render() {

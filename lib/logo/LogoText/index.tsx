@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import * as logoStyle from "./style.scss"
+import * as logoStyle from "./style.module.scss"
 
 interface Props {
   text: string

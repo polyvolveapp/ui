@@ -3,7 +3,7 @@ import cx from "classnames"
 
 import Load from "../Load"
 
-import * as style from "./style.scss"
+import * as style from "./style.module.scss"
 
 export interface Props {
   onClick?: () => void

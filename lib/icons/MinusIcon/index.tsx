@@ -2,7 +2,7 @@ import * as React from "react"
 import cx from "classnames"
 
 import * as iconSvg from "./minus.svg"
-import * as iconStyle from "./style.scss"
+import * as iconStyle from "./style.module.scss"
 
 import { Icon } from ".."
 

@@ -1,7 +1,7 @@
 import * as React from "react"
 import cx from "classnames"
 
-import * as css from "./style.scss"
+import * as css from "./style.module.scss"
 
 interface Props {
   style?: any

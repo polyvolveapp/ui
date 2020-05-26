@@ -6,6 +6,7 @@
     "classnames": "^2.2.6",
     "microtip": "^0.2.2",
     "moment": "^2.24.0",
+    "polyvolve-ui": "https://gitlab.com/polyvolve/ui",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },

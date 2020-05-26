@@ -3,7 +3,7 @@ import cx from "classnames"
 
 import { InfoIcon } from "../icons"
 
-import * as style from "./style.scss"
+import * as style from "./style.module.scss"
 
 type NotificationType = "warning" | "error" | "hint"
 

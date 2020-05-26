@@ -1,7 +1,7 @@
 import * as React from "react"
 import cx from "classnames"
 
-import * as svgStyle from "./style.scss"
+import * as svgStyle from "./style.module.scss"
 
 interface SVGSize {
   width: number

@@ -1,8 +1,6 @@
 import * as React from "react"
 import cx from "classnames"
 
-import "./style.scss"
-
 interface Props {
   onClick?: () => void
   className?: string

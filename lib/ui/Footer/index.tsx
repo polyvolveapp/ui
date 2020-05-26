@@ -1,7 +1,7 @@
 import * as React from "react"
 import cx from "classnames"
 
-import * as footerStyle from "./style.scss"
+import * as footerStyle from "./style.module.scss"
 
 interface Props {
   className?: string

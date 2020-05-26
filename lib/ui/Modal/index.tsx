@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom"
 //import cx from "classnames"
 
 import Portal from "./Portal"
-import * as style from "./style.scss"
+import * as style from "./style.module.scss"
 
 //const renderSubtreeIntoContainer = ReactDOM.unstable_renderSubtreeIntoContainer;
 

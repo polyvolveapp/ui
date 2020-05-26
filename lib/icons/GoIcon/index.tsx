@@ -3,7 +3,7 @@ import Link from "next/link"
 import cx from "classnames"
 
 import * as goIcon from "./go.svg"
-import * as goIconStyle from "./style.scss"
+import * as goIconStyle from "./style.module.scss"
 
 import { SVG } from "../.."
 

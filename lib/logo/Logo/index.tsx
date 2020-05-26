@@ -2,7 +2,7 @@ import * as React from "react"
 import cx from "classnames"
 
 import * as logoIcon from "./logo.svg"
-import * as style from "./style.scss"
+import * as style from "./style.module.scss"
 import { Icon } from "../../icons"
 
 interface Props {

@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import * as infoBoxStyle from "./style.scss"
+import * as infoBoxStyle from "./style.module.scss"
 
   export interface Props { 
     title?: string

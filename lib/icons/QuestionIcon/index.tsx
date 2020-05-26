@@ -2,7 +2,7 @@ import * as React from "react"
 import cx from "classnames"
 
 import * as questionIcon from "./question.svg"
-import * as questionIconStyle from "./style.scss"
+import * as questionIconStyle from "./style.module.scss"
 
 import { Icon } from ".."
 

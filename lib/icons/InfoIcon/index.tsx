@@ -2,7 +2,6 @@ import * as React from "react"
 import cx from "classnames"
 
 import * as iconSvg from "./info.svg"
-import "./style.scss"
 
 import { Icon } from ".."
 

@@ -2,7 +2,7 @@ import * as React from "react"
 import Link from "next/link"
 import cx from "classnames"
 
-import * as style from "./style.scss"
+import * as style from "./style.module.scss"
 
 interface Props {
   children: any
