@@ -1,7 +1,7 @@
 import * as React from "react"
 import cx from "classnames"
 
-import * as style from "./style.scss"
+import * as style from "./style.module.scss"
 
 import * as leftIcon from "./left.svg"
 import * as rightIcon from "./right.svg"

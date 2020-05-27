@@ -3,7 +3,7 @@ import cx from "classnames"
 import { findDOMNode } from "react-dom"
 import * as process from "process"
 
-import * as style from "./style.scss"
+import * as style from "./style.module.scss"
 import findTabbable from "./tabbable"
 import * as focusManager from "./focusmanager"
 import * as bodyClassList from "./bodyclasslist"
