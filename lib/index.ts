@@ -11,7 +11,6 @@ import SVG from "./SVG"
 import Avatar from "./Avatar"
 import Line from "./Line"
 import ProgressBar from "./ProgressBar"
-import NumericSlider from "./NumericSlider"
 import Error from "./Error"
 
 export {
@@ -26,7 +25,6 @@ export {
   LogoText,
   SVG,
   ProgressBar,
-  NumericSlider,
   Error
 }
 
