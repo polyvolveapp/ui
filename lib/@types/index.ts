@@ -20,6 +20,7 @@ export interface User {
   inferiors?: User[]
   superiors?: User[]
   reviewMasters?: ReviewMaster[]
+  reviewingMasters?: ReviewMaster[]
   reviews?: Review[]
   teams?: Team[]
 }
@@ -127,7 +128,9 @@ export interface ReviewCriterionValueContainer {
   value: ReviewCriterionValue
 }
 
-export type ReviewCriterionValue = ReviewCriterionValueScale | ReviewCriterionValueAssociation
+export type ReviewCriterionValue =
+  | ReviewCriterionValueScale
+  | ReviewCriterionValueAssociation
 
 export type ReviewCriterionType = "scale" | "text"
 
@@ -140,7 +143,9 @@ export interface ReviewCriterionValueScale {
 }
 
 export interface ScoreContainer {
-  data: { [reviewMasterId: string]: { [categoryId: string]: ScoreCategoryContainer } }
+  data: {
+    [reviewMasterId: string]: { [categoryId: string]: ScoreCategoryContainer }
+  }
 }
 
 export interface ScoreCategoryContainer {
